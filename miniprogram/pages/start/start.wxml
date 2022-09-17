@@ -1,0 +1,36 @@
+
+
+
+  <view>
+    <view class='.imagesize'>
+      <image src="cloud://mp-release-b1hvc.6d70-mp-release-b1hvc/images/page/ico.png"  mode='widthFix'></image>
+    </view>
+    
+
+  </view>
+
+
+  <view class="startFont">
+    <view>Welcome</view>
+    <view>to</view>
+    <view>Memory Palace</view>
+  </view>
+
+   <view class="button_1">
+    <button  type="primary"  loading="{{loading}}"    plain="false" bindtap="start1" style='left:15%;right:15%;'>
+      开始创建
+    </button>
+    </view>
+   
+  <view class="button">
+    <button type="primary" size="default" loading="{{loading}}" plain="false" bindtap="start2" style='left:15%;right:15%;top:10rpx;'>
+      查看简介
+    </button>
+  </view>
+
+
+
+
+
+
+ 

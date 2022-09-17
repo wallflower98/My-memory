@@ -1,0 +1,35 @@
+<!--pages/scene/scene.wxml-->
+<view class="page">
+
+   <view class="page__bd_spacing"> 
+    <view class="page__title">
+      点击图片添加
+    </view>
+  </view> 
+  <view class='page__bd_spacing'>
+   <navigator url="/pages/add/add?roomid={{roomid}}&&sceneid={{sceneid}}">        
+    <image  class='sizeModal-img' src="{{image_location}}" mode='widthFix' style='width: 100%'></image>
+    </navigator>
+  </view>
+
+
+  <view wx:for="{{notes}}" wx:key="unique" class='page__bd_spacing'>
+    <navigator url="/pages/edit/edit?roomid={{roomid}}&&sceneid={{sceneid}}&&noteid={{item._id}}">        
+      <!-- <view><text>{{item._id}}</text></view>
+      <view><text>{{item.title}}</text></view>
+      <view><text>{{item.notes}}</text></view>
+      <view><text>{{item.date}}</text></view> -->
+      <view class="panel-body" >
+        <view class="pane">
+          <!-- <text  class='ellipsis-1row font-lv2'></text> -->
+          <text class="font1">{{item.title}}</text>
+          <text class='pull-right'>{{item.date}}</text>
+          <view class='ellipsis-1row desc'>
+            <text class="font2">{{item.notes}}</text>
+          </view>
+    </view>
+</view>
+
+    </navigator>
+  </view>
+</view>

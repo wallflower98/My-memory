@@ -1,0 +1,48 @@
+<view class="concern">
+  <view calss="concern1">
+    <image class="image_1" src="cloud://mp-release-b1hvc.6d70-mp-release-b1hvc/images/page/1.JPG" mode="aspectFit"></image>
+    <image class="image_2" src="cloud://mp-release-b1hvc.6d70-mp-release-b1hvc/images/page/2.JPG" mode="aspectFit"></image>
+  </view>
+
+  <view class="text_d" ><text decode="{{true}}" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</text>
+  <font class="font_2" >
+    记忆宫殿训练法是自古希腊古罗马时代以来就存在的历史非常悠久的记忆方法，也是世界记忆大赛冠军训练时使用的方法。</font>
+  </view>
+  <text decode="{{true}}" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</text>
+  
+  <view class="concern2">
+    
+    <view class="con2_2"><image src="cloud://mp-release-b1hvc.6d70-mp-release-b1hvc/images/page/4.JPG" mode="aspectFit"  ></image></view>
+  </view>
+
+  <view class="con_3">
+     <image class="image_2" src="cloud://mp-release-b1hvc.6d70-mp-release-b1hvc/images/page/5.JPG" mode="aspectFit"></image>
+  </view>
+    
+  <view class="p1">
+      <view class="biaoti"><font class="font_1">场景</font></view>
+      <view class="biaoti2"><font class="font_2">从小程序中选择你喜欢的场景  </font>  </view>
+      <view class="biaoti2"><font class="font_2">按照我们规定的路线顺序放置\n</font></view>
+      <view class="p1_image"><image class="image_4" src="cloud://mp-release-b1hvc.6d70-mp-release-b1hvc/images/page/6.JPG" mode="aspectFill"></image></view>
+  </view>
+
+    <view class="p1">
+      <view class="biaoti"><font class="font_1">放置</font></view>
+      <view class="biaoti2"><font class="font_2">在场景中的特定物品中</font></view>
+      <view class="biaoti2"><font class="font_2">放上你需要存储的东西</font></view>
+      <view class="p1_image"><image class="image_4" src="cloud://mp-release-b1hvc.6d70-mp-release-b1hvc/images/page/7.JPG"  mode="aspectFill"></image></view>
+    </view>
+
+     <view class="p1">
+      <view class="biaoti"><font class="font_1">记忆</font></view>
+      <view class="biaoti2"><font class="font_2">按照顺序进行记忆重复</font></view>
+      <view class="biaoti2"><font class="font_2">然后你的记忆宫殿就创建好了</font></view>
+      <view class="p1_image"><image class="image_4" src="cloud://mp-release-b1hvc.6d70-mp-release-b1hvc/images/page/8.JPG" mode="aspectFill"></image></view>
+     </view>
+
+
+    <view class="biaoti"><font class="font_1">使用</font></view>
+    <view class="biaoti2"><font class="font_2">需要想起某个东西时</font></view>
+    <view class="biaoti2"><font class="font_2">就按照路径寻找,直到找到它为止。</font></view>
+    <image class="image_4" class="image_2" src="cloud://mp-release-b1hvc.6d70-mp-release-b1hvc/images/page/9.JPG" mode="aspectFit"></image>
+</view>

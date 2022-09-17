@@ -1,0 +1,62 @@
+<!--pages/room/room.wxml-->
+<view class="page">
+
+  <view class="page__bd_spacing"> 
+    <view class="page__title">
+      记住顺序并选择一个位置
+    </view>
+  </view> 
+  
+
+        <!-- <view class='page__bd_spacing'>
+        <image class='sizeModal-img' src='{{item[0]}}' mode='widthFix' style='width: 100%'></image>
+      </view> -->
+
+
+
+    <view class='page__bd_spacing'>
+      <image class='sizeModal-img' src="{{roomfile[8]}}"
+        mode='widthFix' style='width: 100%'>
+      </image>
+    </view>
+
+
+  <view class="index-bd">
+    <view class="kind-list">
+
+      <block wx:for="{{roomfile}}" wx:key="unique" >
+      
+      <navigator url="/pages/scene/scene?roomid={{roomid}}&&sceneid={{item[62]}}">   
+
+        <view class="room_all" wx:if="{{ index > 0  && index < 8}}">
+          <view class="little_scene">
+            <image class="little_image" src="{{item}}"></image>
+            <view class="little_text"> <text>SCENE{{item[62]}}</text></view>
+          </view>
+        </view>   
+
+      </navigator>
+      
+      </block>
+    </view>
+  </view>
+
+</view>
+
+
+
+<!--         
+        <view class="kind-list-item">
+
+          <view class="flex-item">
+              
+              <text class="myText"  wx:if="{{ index > 0  && index < 8}}">
+                scene: {{item[62]}}
+              </text>
+
+              <image class='kind-list-img' src="{{item}}" wx:if="{{ index > 0  && index < 8}}"></image>
+          </view>
+
+        </view> -->
+
+

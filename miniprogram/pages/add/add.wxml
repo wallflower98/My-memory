@@ -1,0 +1,15 @@
+<!--pages/add/add.wxml-->
+
+
+<view class="text">
+ <form class='form' bindsubmit='tapToSave' style='background-color: white;'>
+
+   标题：<input name="_TITLE"  maxlength='20' class='text1' bindinput='changeTitle' auto-focus="true"></input> 
+   内容: <textarea name="_NOTES"  maxlength='500' class='text11' bindinput='changeNotes'></textarea>
+
+  <button form-type='submit' type="primary" size="{{primarySize}}" loading="{{loading}}" 
+          plain="{{plain}}"  disabled="{{disabled}}"   class='buttonSave' >
+    保存
+  </button>
+</form>
+</view>

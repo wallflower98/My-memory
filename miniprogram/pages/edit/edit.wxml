@@ -1,0 +1,52 @@
+<!--pages/edit/edit.wxml-->
+<!-- <text>pages/edit/edit.wxml</text> -->
+<!-- 
+<view><text>{{roomid}}</text></view>
+<view><text>{{sceneid}}</text></view>
+<view><text>{{noteid}}</text></view> -->
+
+
+<view class="text">
+ <form class='form' bindsubmit='tapToSave' bindreset='tapToReset' style='background-color: white;'>
+
+   标题：<textarea name="_TITLE" placeholder='{{title}}' maxlength='20' class='text1' bindinput='changeTitle'   ></textarea> 
+   内容: <textarea name="_NOTES" placeholder='{{notes}}'  maxlength='500' class='text11' bindinput='changeNotes' ></textarea>
+
+  <button form-type='submit' type="primary" size="{{primarySize}}" loading="{{loading}}" 
+          plain="{{plain}}"  disabled="{{disabled}}"   class='buttonSave' >
+    保存
+  </button>
+  <button form-type='reset' type="warn" size="{{warnSize}}" loading="{{loading}}" 
+          plain="{{plain}}"  disabled="{{disabled}}"  class='buttonReset'> 
+    删除 
+  </button>
+</form>
+</view>
+
+
+
+
+  <!-- <view class="page-section">
+  <view class="weui-cells__title">标题</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" auto-focus placeholder="{{notes[0].title}}"></input>
+      </view>
+    </view>
+  </view>
+
+  <view class="page-section">
+    <view class="weui-cells__title">内容</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" maxlength="100" placeholder="{{notes[0].notes}}"></input>
+      </view>
+    </view>
+  </view> -->
+
+<!-- <view><text>{{item._id}}</text></view>
+<view><text>{{item.title}}</text></view>
+<view><text>{{item.notes}}</text></view>
+<view><text>{{item.date}}</text></view> -->
+
+
